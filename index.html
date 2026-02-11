@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Power Land | خدماتنا العقارية</title>
+    <title>Power Land | القوة في الأداء والسيادة في العقارات</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -11,48 +11,78 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo">Power <span class="red-text">Land</span></div>
-        <div class="academy">Hossam Gmeay Academy</div>
+        <div class="logo">POWER <span class="red-text">LAND</span></div>
+        <div class="academy-tag">Hossam Gmeay Academy</div>
     </nav>
 
-    <header class="hero-mini">
-        <h1>خدماتنا العقارية المتكاملة</h1>
-        <p>القوة في الأداء والسيادة في العقارات</p>
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="main-title">POWER <br><span class="gold-text">LAND</span></h1>
+            <p class="slogan">القوة في الأداء والسيادة في العقارات</p>
+            
+            <div class="main-features">
+                <span><i class="fas fa-check-circle gold-text"></i> امتلك وسيطر</span>
+                <span><i class="fas fa-check-circle gold-text"></i> قوة ونفوذ وأمان</span>
+                <span><i class="fas fa-check-circle gold-text"></i> أصل عقاري حقيقي</span>
+            </div>
+            
+            <div class="highlight-bar">امتلاكك للعقار = امتلاكك للقوة</div>
+        </div>
     </header>
 
-    <section class="services-container">
-        <div class="service-card">
-            <div class="icon-box"><i class="fas fa-user-shield"></i></div>
-            <h3>استشارات قانونية</h3>
-            <p>حماية كاملة لاستثماراتك العقارية وضمان صحة العقود.</p>
-        </div>
-
-        <div class="service-card">
-            <div class="icon-box"><i class="fas fa-chart-line"></i></div>
-            <h3>تسويق عقاري</h3>
-            <p>نصلك بأفضل الفرص في السوق ونضمن سرعة البيع والشراء.</p>
-        </div>
-
-        <div class="service-card">
-            <div class="icon-box"><i class="fas fa-city"></i></div>
-            <h3>تشييد وبناء</h3>
-            <p>تنفيذ هندسي بأعلى معايير الجودة والاتقان في البناء.</p>
-        </div>
-
-        <div class="service-card">
-            <div class="icon-box"><i class="fas fa-gem"></i></div>
-            <h3>إدارة أملاك</h3>
-            <p>تعظيم عوائدك العقارية من خلال إدارة احترافية وشاملة.</p>
+    <section class="services-section">
+        <h2 class="section-title">خدماتنا <span class="gold-text">الاحترافية</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-balance-scale"></i></div>
+                <h3>استشارات قانونية</h3>
+                <p>حماية كاملة لاستثماراتك العقارية وضمان صحة العقود.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+                <h3>تسويق عقاري</h3>
+                <p>نصلك بأفضل الفرص في السوق ونضمن سرعة البيع والشراء.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-tools"></i></div>
+                <h3>تشييد وبناء</h3>
+                <p>تنفيذ هندسي بأعلى معايير الجودة والاتقان في البناء.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                <h3>إدارة أملاك</h3>
+                <p>تعظيم عوائدك العقارية من خلال إدارة احترافية وشاملة.</p>
+            </div>
         </div>
     </section>
 
-    <a href="https://wa.me/message/K4XPSMWJGDRTF1" class="whatsapp-float" target="_blank">
+    <section class="form-section">
+        <div class="form-container">
+            <h3>طلب استشارة <span class="red-text">VIP</span></h3>
+            <form id="whatsappForm">
+                <input type="text" id="name" placeholder="الاسم بالكامل" required>
+                <input type="tel" id="phone" placeholder="رقم الهاتف" required>
+                <select id="service" required>
+                    <option value="" disabled selected>اختر الخدمة المطلوبة...</option>
+                    <option value="استشارة قانونية">استشارة قانونية</option>
+                    <option value="تسويق عقاري">تسويق عقاري</option>
+                    <option value="تشييد وبناء">تشييد وبناء</option>
+                    <option value="إدارة أملاك">إدارة أملاك</option>
+                </select>
+                <button type="submit" class="submit-btn">تواصل عبر واتساب <i class="fab fa-whatsapp"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <a href="https://wa.me/message/K4XPSMWJGDRTF1" class="float-ws" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <footer>
-        <p>© 2026 Power Land | تصميم Hossam Gmeay Academy</p>
+        <p>© 2026 Power Land - جميع الحقوق محفوظة لـ Hossam Gmeay Academy</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
