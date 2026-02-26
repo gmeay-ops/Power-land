@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Land | Own the Power</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">POWER <span class="gold">LAND</span></div>
+        <div class="nav-contact">
+            <a href="tel:01065652642"><i class="fas fa-phone"></i> 01065652642</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1 class="main-title">POWER <span class="gold">LAND</span></h1>
+        <h2 class="sub-title">Own the Power of Property</h2>
+        <p class="hero-desc">العقار هنا مش مجرد شقة أو محل، ده قوة مالية، أصل، ونفوذ استثماري.</p>
+        <div class="badges">
+            <span>امتلك وسيطر <i class="fas fa-crown gold"></i></span>
+            <span>نفوذ وأمان <i class="fas fa-shield-alt red"></i></span>
+        </div>
+    </section>
+
+    <section class="philosophy">
+        <div class="card">
+            <h3><span class="red">Power</span> : قوة، سيطرة، نفوذ</h3>
+            <h3><span class="gold">Land</span> : أصل حقيقي، ثبات، أمان</h3>
+            <p>امتلاكك للعقار = امتلاكك للقوة</p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="form-container">
+            <h3>استشارة VIP مجانية</h3>
+            <form id="whatsappForm">
+                <input type="text" id="name" placeholder="الاسم بالكامل" required>
+                <input type="tel" id="phone" placeholder="رقم التليفون" required>
+                <select id="service">
+                    <option value="" disabled selected>استفسار عن...</option>
+                    <option value="شؤون قانونية">شؤون قانونية</option>
+                    <option value="بيع">بيع</option>
+                    <option value="شراء">شراء</option>
+                    <option value="تصميم 3D">تصميم 3D</option>
+                    <option value="تشطيب">تشطيب</option>
+                    <option value="دعاية وإعلان">دعاية وإعلان</option>
+                    <option value="إدارة مشاريع">إدارة مشاريع تطوير</option>
+                    <option value="استشارة استثمارية">استشارة استثمارية</option>
+                    <option value="إنشاءات">إنشاءات</option>
+                </select>
+                <button type="submit" class="btn-pulse">إرسال عبر واتساب <i class="fab fa-whatsapp"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/1CyfZoPohY/" target="_blank"><i class="fab fa-facebook"></i> Facebook Page</a>
+        </div>
+        <p>© 2026 Power Land - All Rights Reserved | Hossam Gmeay Academy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
